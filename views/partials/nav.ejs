@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<% Object.keys(navs).forEach(function (id) { %>
+  <a class="button" href="<%= navs[id].link %>"><%= navs[id].title %></a>
+<% }) %>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>❤️ Breakfast Menu ❤️</title>
+</head>
+<body>
+  <div class="container">
+    <% include ../partials/header %>
+    <% Object.keys(dishes).forEach(function (id) { %>
+      <h2><%= dishes[id].title %></h2>
+      <a href="<%= dishes[id].url %>"><p><%= dishes[id].text %></p></a>
+      <img src="<%= dishes[id].photo %>">
+      <% }) %>
+      <% include ../partials/footer %>
+    </div>
+  </body>
+  </html>

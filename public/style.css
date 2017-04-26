@@ -1,0 +1,40 @@
+h2 {
+  color: rgba(242, 66, 54, 1);
+}
+
+h3 {
+  color: rgba(10, 177, 177, 1);
+}
+
+p {
+  color: rgba(86, 65, 56, 1);
+}
+
+img {
+  max-width: 600px;
+}
+
+.button {
+  background-color: rgba(10, 177, 177, 1);
+  display: inline-block;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  text-align: center;
+  height: 38px;
+  width: 135px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #0c375e;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.container {
+  margin: 20px;
+}
