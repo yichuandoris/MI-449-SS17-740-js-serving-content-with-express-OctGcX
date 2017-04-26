@@ -11,7 +11,7 @@
     <% include ../partials/header %>
     <% Object.keys(dishes).forEach(function (id) { %>
       <h2><%= dishes[id].title %></h2>
-      <a href="<%= dishes[id].url %>"><p><%= dishes[id].text %></p></a>
+      <a href="<%= dishes[id].url %>" target="_blank"><p><%= dishes[id].text %></p></a>
       <img src="<%= dishes[id].photo %>">
       <% }) %>
       <% include ../partials/footer %>
